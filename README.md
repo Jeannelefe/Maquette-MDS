@@ -1,4 +1,4 @@
-<h1>PRESENTATION<h1>
+<h1>PRESENTATION</h1>
 Hi 👋, We are Jeanne and Tina 
 
 We are going to present you our project on GIT 

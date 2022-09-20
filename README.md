@@ -1,3 +1,4 @@
+<h1>PRESENTATION<h1>
 Hi 👋, We are Jeanne and Tina 
 
 We are going to present you our project on GIT 
@@ -16,7 +17,7 @@ The main blue colors:
 
 The modalites of evaluation are: 
 
-Part GIT / Github /10
+<h2>Part GIT / Github /10<h2>
 Creation of 7 branches :
 📌 The menu /1
 📌 The header block /1
@@ -28,19 +29,19 @@ Creation of 7 branches :
 📌 Creating a complete ReadMe /1
 📌 Successfully merging branches into the main branch /2
 
-Code part /10
+<h2>Code part /10 <h2>
 📌 Respect of the HTML CSS semantics /6
 📌 Respect of the graphic charter /1
 📌 Integration of typography, images... /1
 📌 Indentation, comments, architecture (well arranged folders, files ...) /2
 
-Bonus
+<h2>Bonus<h2>
 
 📌 Making the menu responsive (with a hamburger menu) /2
 📌 All the project is in English /1
 📌 Other steps (example : merge request, ...) will be rewarded
 
-Condition 
+<h2>Condition<h2> 
 
 📌 The evaluation is done in pairs.
 📌 A public repository must be created

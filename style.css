@@ -1,0 +1,86 @@
+*,:after, :before{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	height: 7000px;
+}
+
+html{
+	height: 100%;
+}
+
+/**************** Square et Ligne ****************/
+
+.square {
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	background: #28B7C5;
+	margin: 15px 0;
+}
+
+.line-1 {
+	width: 15px;
+	height: 15px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-2 {
+	width: 80px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-3 {
+	width: 60px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line {
+	line-height: 8px;
+}
+
+/********************* Accueil ********************/
+
+h1{
+	font-size: 32px;
+	width: 300px;
+	font-family: arial;
+}
+
+.texte1{
+	position: relative;
+	top: 150px;
+	left: 80px;
+	width: 1000px;
+}
+
+.texte1 p{
+	font-size: 18px;
+	width: 400px;
+	font-family: arial;
+}
+
+.texte1 button{
+	border-radius: none;
+	width: 150px;
+	height: 60px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.background{
+	background-image: url(background1.png);
+	height: 720px;
+	background-size: 100%;
+}

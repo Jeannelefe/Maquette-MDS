@@ -1,0 +1,99 @@
+*,:after, :before{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	height: 7000px;
+}
+
+html{
+	height: 100%;
+}
+
+/**************** Square et Ligne ****************/
+
+.square {
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	background: #28B7C5;
+	margin: 15px 0;
+}
+
+.line-1 {
+	width: 15px;
+	height: 15px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-2 {
+	width: 80px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-3 {
+	width: 60px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line {
+	line-height: 8px;
+}
+
+/********************** Competences *****************/
+
+.tout3{
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
+
+.lescompetences{
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	height: 300px;
+	top: 220px;
+}
+
+.competence{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.competence img{
+	width: 100px;
+}
+
+.competence h3{
+	font-family: arial;
+	font-size: 20px;
+}
+
+.competence p{
+	font-family: arial;
+	font-size: 18px;
+}
+
+.tout3 button{
+	position: relative;
+	left: 590px;
+	top: 100px;
+	width: 250px;
+	height: 60px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+}
+

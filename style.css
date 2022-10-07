@@ -1,0 +1,96 @@
+*,:after, :before{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	height: 7000px;
+}
+
+html{
+	height: 100%;
+}
+
+/**************** Square et Ligne ****************/
+
+.square {
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	background: #28B7C5;
+	margin: 15px 0;
+}
+
+.line-1 {
+	width: 15px;
+	height: 15px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-2 {
+	width: 80px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-3 {
+	width: 60px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line {
+	line-height: 8px;
+}
+
+/****************** Methodo travail ******************/
+
+.tout2{
+	display: flex;
+	justify-items: center;
+
+}
+
+.photo2{
+	display: flex;
+	width: 700px;
+	height: 600px;
+
+}
+
+.texte2 {
+	width: 500px;
+	display: flex;
+	text-align: right;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+	left: 200px;
+	position: relative;
+	left: 150px;
+
+}
+
+.texte2 h2{
+	width: 400px;
+	font-size: 32px;
+	font-family: arial;
+}
+
+.texte p{
+	position: relative;
+	font-size: 18px;
+	right: 280px;
+
+}
+
+.bas2 h2{
+	font-style: italic;
+	font-family: arial;
+	font-size: 26px;
+}

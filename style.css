@@ -1,0 +1,145 @@
+*,:after, :before{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	height: 7000px;
+}
+
+html{
+	height: 100%;
+}
+
+/**************** Square et Ligne ****************/
+
+.square {
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	background: #28B7C5;
+	margin: 15px 0;
+}
+
+.line-1 {
+	width: 15px;
+	height: 15px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-2 {
+	width: 80px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-3 {
+	width: 60px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line {
+	line-height: 8px;
+}
+
+/***************** Présentation Classe **************/
+
+.tout4{
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: 200px;
+	height: 600px;
+}
+
+.photo3{
+	position: relative;
+	display: flex;
+	width: 500;
+	height: 400px;
+	left: 150px;
+	justify-items: flex-end;
+}
+
+}.photo3 img{
+	width: 100%;
+	height: 100%;
+}
+
+.texte3 {
+	position: relative;
+	width: 550px;
+	display: flex;
+	text-align: left;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	left: 100px;
+}
+	
+.texte3 h2{
+	width: 400px;
+	font-size: 32px;
+	font-family: arial;
+}
+
+.tout4 button{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+}
+
+
+/******************* Travail d'équipe ***************/
+
+.tout5{
+	display: flex;
+	height: 800px;
+	position: relative;
+	justify-items: center;
+	top: 250px;
+}
+
+.photo4{
+	display: flex;
+	width: 700px;
+	height: 600px;
+}
+
+.texte4 {
+	width: 500px;
+	display: flex;
+	text-align: right;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+	position: relative;
+	left: 140px;
+	bottom: 50px;
+}
+
+.texte4 button{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.texte4 h2{
+	width: 400px;
+	font-size: 32px;
+	font-family: arial;
+}

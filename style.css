@@ -1,0 +1,127 @@
+*,:after, :before{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+body {
+	height: 7000px;
+}
+
+html{
+	height: 100%;
+}
+
+/**************** Square et Ligne ****************/
+
+.square {
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	background: #28B7C5;
+	margin: 15px 0;
+}
+
+.line-1 {
+	width: 15px;
+	height: 15px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-2 {
+	width: 80px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line-3 {
+	width: 60px;
+	height: 1px;
+	background: #28B7C5;
+	display: inline-block;
+}
+
+.line {
+	line-height: 8px;
+}
+
+/************************ Formulaire *******************/
+
+.tout6{
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: 200px;
+	height: 600px;
+}
+
+.photo5{
+	position: relative;
+	display: flex;
+	width: 600;
+	height: 500px;
+	left: 70px;
+	justify-items: flex-end;
+}
+
+.texte5 {
+	position: relative;
+	width: 600px;
+	display: flex;
+	text-align: left;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	left: 100px;
+}
+
+.texte5 h2{
+	width: 500px;
+	font-size: 32px;
+	font-family: arial;
+}
+
+.texte5 form{
+	width: 450px;
+}
+
+.texte5 form input{
+	width: 350px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 6px;
+}
+
+.texte5 form textarea{
+	width: 350px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 6px;
+}
+
+.boutons{
+	display: flex;
+	
+}
+.boutons input{
+	width: 160px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+	padding: 10px;
+
+}
+
+.boutons .second{
+	margin-left: 20px;
+}

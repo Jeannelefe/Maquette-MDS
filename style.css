@@ -17,6 +17,7 @@ html{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*********************** Header et Logo *****************/
 
 
@@ -72,6 +73,8 @@ header nav{
 >>>>>>> 6-the-class-presentation-and-teamwork-block
 =======
 >>>>>>> 7-the-contact-block
+=======
+>>>>>>> 8-the-footer-block
 /**************** Square et Ligne ****************/
 
 .square {
@@ -107,6 +110,7 @@ header nav{
 	line-height: 8px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,10 +378,63 @@ h1{
 .boutons input{
 	width: 160px;
 >>>>>>> 7-the-contact-block
+=======
+/********************** Footer ************************/
+
+.separation{
+	height: 10px;
+	position: relative;
+	top: 250px;
+}
+
+.separation HR{
+	width: 100%;
+	height: 3px;
+	background: #28B7C5 ;
+}
+
+footer{
+	width: 100%;
+	height: 180px;
+	position: relative;
+	top: 250px;
+	right: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer h4{
+	color: #28B7C5;
+	margin-bottom: 20px;
+}
+
+footer li{
+	list-style-type: none;
+}
+
+.logobouton img{
+	width: 150px;
+	height: 60px;
+}
+
+
+.logobouton{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.logobouton button{
+	position: relative;
+	width: 180px;
+	height: 50px;
+>>>>>>> 8-the-footer-block
 	border-color: #28B7C5;
 	background: none;
 	font-family: arial;
 	font-size: 16px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -399,3 +456,7 @@ h1{
 	margin-left: 20px;
 }
 >>>>>>> 7-the-contact-block
+=======
+	margin-top: 20px;
+}
+>>>>>>> 8-the-footer-block

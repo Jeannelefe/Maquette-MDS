@@ -16,6 +16,7 @@ html{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*********************** Header et Logo *****************/
 
 
@@ -69,6 +70,8 @@ header nav{
 >>>>>>> 5-the-skills-block
 =======
 >>>>>>> 6-the-class-presentation-and-teamwork-block
+=======
+>>>>>>> 7-the-contact-block
 /**************** Square et Ligne ****************/
 
 .square {
@@ -106,6 +109,7 @@ header nav{
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /********************* Accueil ********************/
 
 h1{
@@ -135,6 +139,11 @@ h1{
 /***************** Présentation Classe **************/
 
 .tout4{
+=======
+/************************ Formulaire *******************/
+
+.tout6{
+>>>>>>> 7-the-contact-block
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -142,6 +151,7 @@ h1{
 	height: 600px;
 }
 
+<<<<<<< HEAD
 .photo3{
 	position: relative;
 	display: flex;
@@ -159,6 +169,20 @@ h1{
 .texte3 {
 	position: relative;
 	width: 550px;
+=======
+.photo5{
+	position: relative;
+	display: flex;
+	width: 600;
+	height: 500px;
+	left: 70px;
+	justify-items: flex-end;
+}
+
+.texte5 {
+	position: relative;
+	width: 600px;
+>>>>>>> 7-the-contact-block
 	display: flex;
 	text-align: left;
 	justify-content: center;
@@ -166,6 +190,7 @@ h1{
 	flex-direction: column;
 	left: 100px;
 }
+<<<<<<< HEAD
 	
 .texte3 h2{
 	width: 400px;
@@ -240,10 +265,16 @@ h1{
 
 .texte2 h2{
 	width: 400px;
+=======
+
+.texte5 h2{
+	width: 500px;
+>>>>>>> 7-the-contact-block
 	font-size: 32px;
 	font-family: arial;
 }
 
+<<<<<<< HEAD
 .texte p{
 	position: relative;
 	font-size: 18px;
@@ -311,10 +342,43 @@ h1{
 	width: 200px;
 	height: 50px;
 >>>>>>> 6-the-class-presentation-and-teamwork-block
+=======
+.texte5 form{
+	width: 450px;
+}
+
+.texte5 form input{
+	width: 350px;
 	border-color: #28B7C5;
 	background: none;
 	font-family: arial;
 	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 6px;
+}
+
+.texte5 form textarea{
+	width: 350px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 6px;
+}
+
+.boutons{
+	display: flex;
+	
+}
+.boutons input{
+	width: 160px;
+>>>>>>> 7-the-contact-block
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -326,3 +390,12 @@ h1{
 	font-family: arial;
 }
 >>>>>>> 6-the-class-presentation-and-teamwork-block
+=======
+	padding: 10px;
+
+}
+
+.boutons .second{
+	margin-left: 20px;
+}
+>>>>>>> 7-the-contact-block

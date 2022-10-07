@@ -14,6 +14,7 @@ html{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*********************** Header et Logo *****************/
 
 
@@ -63,6 +64,8 @@ header nav{
 	margin-top: 10px;
 =======
 >>>>>>> 4-the-work-methodology-block
+=======
+>>>>>>> 5-the-skills-block
 /**************** Square et Ligne ****************/
 
 .square {
@@ -98,6 +101,7 @@ header nav{
 	line-height: 8px;
 }
 
+<<<<<<< HEAD
 /********************* Accueil ********************/
 
 h1{
@@ -179,3 +183,54 @@ h1{
 	font-family: arial;
 	font-size: 26px;
 }
+=======
+/********************** Competences *****************/
+
+.tout3{
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+}
+
+.lescompetences{
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	height: 300px;
+	top: 220px;
+}
+
+.competence{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.competence img{
+	width: 100px;
+}
+
+.competence h3{
+	font-family: arial;
+	font-size: 20px;
+}
+
+.competence p{
+	font-family: arial;
+	font-size: 18px;
+}
+
+.tout3 button{
+	position: relative;
+	left: 590px;
+	top: 100px;
+	width: 250px;
+	height: 60px;
+	border-color: #28B7C5;
+	background: none;
+	font-family: arial;
+	font-size: 16px;
+}
+
+>>>>>>> 5-the-skills-block
